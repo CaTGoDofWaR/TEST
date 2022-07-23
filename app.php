@@ -1,0 +1,2 @@
+$output = "Test";
+    echo $output;
