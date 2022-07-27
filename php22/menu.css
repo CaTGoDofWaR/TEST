@@ -1,0 +1,91 @@
+/* Main menu styles */
+
+header a {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:lightgreen;
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: black;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    color: gray;
+}
+
+input[type="search"], input[type="text"], input[type="number"], input[type="date"], input[type="email"], input[type="tel"], input[type="url"], select {
+    border: 1px solid lightyellow;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    background-color:lightyellow;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    align-items: center;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 12px;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.keypad {
+    margin-left: 170px;
+}
+
+header {
+    display: flex;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin-bottom: 15px;
+}
+
+.pageName {
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo img {
+    width: 130px;
+    height: 130px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.headerContent {
+    flex-grow: 1;
+}
+
+.content {
+    padding-left: 5px;
+}

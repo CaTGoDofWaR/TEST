@@ -1,0 +1,126 @@
+.forma {
+    flex: 1;
+    border: 8px solid black;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.tovar {
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.tovar2 {
+    border: 2px solid green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.tovar3 {
+    border: 2px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.allforms {
+    display: flex;
+}
+
+.necessary:after {
+    content: '*';
+    color: red;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+table {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.head td {
+    background-color: #cfcfcf;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+body {
+    background-color: ivory;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color:lightgreen;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    color: gray;
+}
+
+input[type="search"], input[type="text"], input[type="number"] {
+    border: 1px solid lightyellow;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    background-color:lightyellow;
+}
+
+.menu a {
+    display: inline-block;
+    cursor: pointer;
+    background-color:lightgreen;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+}
+
+.menu a div {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    display: none!important;
+}
+
+.buyItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.buyItem form {
+    flex: 1;
+}
